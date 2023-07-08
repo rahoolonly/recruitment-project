@@ -1,0 +1,419 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+h1 {
+    font-size: 6.5rem;
+    color: #F6821E;
+}
+
+h2 {
+    font-size: 5.8rem;
+}
+
+h3 {
+    font-size: 3.6rem;
+    margin-bottom: 1rem;
+    color: #F6821E;
+}
+
+p {
+    font-size: 2.8rem;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+.bg-color {
+    background-color: #FFFBF6;
+}
+
+.text1 {
+    font-size: 3.6rem;
+    font-weight: 800;
+}
+
+.text2 {
+    font-size: 1.6rem;
+    font-weight: 550;
+}
+
+.flex {
+    display: flex;
+    align-items: center;
+}
+
+.ml {
+    margin-left: 1rem;
+}
+
+
+/* nav section */
+nav {
+    padding: 2rem;
+    border-bottom: 1px solid rgb(246, 245, 245);
+}
+
+.container>a>.logo {
+    width: 16rem;
+}
+
+.candidateSearch {
+    font-weight: 550;
+}
+
+/* hero section */
+.hero {
+    width: 88%;
+    margin: auto;
+}
+
+.hero-img {
+    width: 70rem;
+    height: 66rem;
+}
+
+
+/* after-hero-section */
+.after-hero {
+    padding: 3rem 0rem;
+    text-align: center;
+}
+
+
+/* features-section */
+.features-section {
+    padding-top: 8rem;
+    padding-bottom: 8rem;
+}
+
+
+.features {
+    padding-bottom: 4rem;
+    flex-direction: column;
+}
+
+.feature {
+    gap: 5rem;
+}
+
+
+.offerTextWithButton {
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+button {
+    background-color: #F6821E;
+    color: black;
+    border-color: #F6821E;
+    padding: .5rem 1rem;
+    border-radius: 1rem;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #fb7f13;
+}
+
+
+/* sign IN */
+.sign-in {
+    height: 90vh;
+}
+
+.sign-in-box {
+    background-color: white;
+    border-radius: 4rem;
+    margin: auto;
+    padding-right: 15rem;
+    padding-left: 7rem;
+    gap: 5rem;
+    box-shadow: 10px 10px 10px -5px rgba(0, 0, 0, 0.15);
+}
+
+.sign-in-box>img {
+    width: 45rem;
+}
+
+.sign-in-inputs {
+    flex-direction: column;
+    gap: 2rem;
+}
+
+input {
+    padding: .5rem;
+    padding-left: 1.1rem;
+    border-radius: .5rem;
+    font-size: 1.8rem;
+}
+
+.buttonWithText {
+    width: 100%;
+    justify-content: start;
+    gap: 1.5rem;
+}
+
+.buttonWithText>button {
+    font-weight: 550;
+}
+
+/* candidate section */
+.candidateSection {
+    height: 75vh;
+    padding: 5rem 0;
+    padding-left: 4rem;
+}
+
+#searchOptions {
+    margin-bottom: 2.5rem;
+}
+
+.JobAndPlaceInput {
+    margin-top: 3rem;
+    gap: 3rem;
+}
+
+#searchOptions>button {
+    font-weight: 550;
+    margin-top: 1.5rem;
+}
+
+.candidateList {
+    gap: 1rem;
+    margin-bottom: 3rem;
+}
+
+.rankedList {
+    gap: 1rem;
+    margin-top: 1.5rem;
+    align-items: start;
+    flex-direction: column;
+}
+
+@media screen and (max-width:1080px) {
+    html {
+        font-size: 58%;
+    }
+
+    h1 {
+        font-size: 8rem;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 7rem;
+    }
+
+    h3 {
+        font-size: 4rem;
+    }
+
+    .container {
+        width: 95%;
+    }
+
+    .text1 {
+        font-size: 4rem;
+    }
+
+    .text2 {
+        font-size: 2.5rem;
+    }
+
+    /* navbar */
+    .candidateSearch {
+        font-size: 2rem;
+    }
+
+    /* hero-section */
+    .hero {
+        flex-direction: column;
+        padding-bottom: 5rem;
+    }
+
+    .hero-img {
+        width: 85rem;
+        height: 86rem;
+    }
+
+    .feature>img {
+        width: 45rem;
+    }
+
+    /* sign In section */
+    .sign-in {
+        height: 95vh;
+    }
+
+    .sign-in-box {
+        flex-direction: column;
+        gap: 0rem;
+        padding-right: 6rem;
+        padding-left: 6rem;
+        padding-bottom: 5rem;
+    }
+
+    .buttonWithText>button {
+        font-size: 2rem;
+    }
+
+    /* candidate section */
+    .candidateSection {
+        padding-left: 2rem;
+        height: 90vh;
+    }
+
+    #searchOptions>button {
+        font-size: 2rem;
+    }
+}
+
+
+@media screen and (max-width:768px) {
+    html {
+        font-size: 55%;
+    }
+
+    h1 {
+        font-size: 7rem;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 6rem;
+    }
+
+    h3 {
+        font-size: 3.5rem;
+    }
+
+    .text2 {
+        font-size: 2.3rem;
+        font-weight: 550;
+    }
+
+    /* hero-section */
+    .hero-img {
+        width: 68rem;
+        height: 78rem;
+    }
+
+    /* features-section */
+    .features-section {
+        padding-top: 5rem;
+    }
+
+    .features {
+        padding-bottom: 8rem;
+    }
+
+    .feature {
+        gap: 0 !important;
+        flex-direction: column;
+    }
+
+    .featurePositionChange {
+        flex-direction: column-reverse;
+    }
+
+    .feature>img {
+        width: 47rem;
+    }
+
+    /* sign in section */
+    .sign-in-box {
+        flex-direction: column;
+        gap: 0rem;
+        padding-right: 0rem;
+        padding-left: 0rem;
+        padding-bottom: 5rem;
+    }
+
+    /* candidate section */
+    .candidateSection {
+        padding-left: 2rem;
+        height: 85vh;
+    }
+}
+
+
+@media screen and (max-width:576px) {
+    html {
+        font-size: 45%;
+    }
+
+    h1 {
+        font-size: 6rem;
+        text-align: center;
+    }
+
+    h2 {
+        font-size: 5rem;
+    }
+
+    h3 {
+        font-size: 3.5rem;
+    }
+
+    .container {
+        width: 90%;
+    }
+
+    /* hero-section */
+    .hero {
+        flex-direction: column;
+        padding-bottom: 3rem;
+    }
+
+    .hero-img {
+        width: 52rem;
+        height: 60rem;
+    }
+
+    /* feature section */
+    .feature>img {
+        width: 50rem;
+    }
+
+
+    /* candidate section */
+    .candidateSection {
+        padding-left: 2rem;
+        height: 80vh;
+    }
+
+    .JobAndPlaceInput {
+        align-items: start;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+
+    .candidateList {
+        flex-direction: column;
+        align-items: start;
+    }
+
+}
+
+@media screen and (max-width:380px) {
+
+    html {
+        font-size: 30%;
+    }
+}

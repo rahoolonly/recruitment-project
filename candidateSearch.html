@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Job Recruitment</title>
+</head>
+
+<body>
+    <nav>
+        <div class="container">
+            <a href="/"> <img class="logo" src="./images/proimg.webp" alt="">
+            </a>
+        </div>
+    </nav>
+
+    <section class="bg-color">
+        <div class="container candidateSection">
+            <div class="text1">
+                Search Candidates
+            </div>
+
+            <form id="searchOptions">
+                <div class="JobAndPlaceInput flex">
+                    <input id="jobRole" placeholder="Job Role" type="text">
+                    <input id="location" placeholder="Location" type="text">
+                </div>
+                <button type="submit">Search</button>
+            </form>
+
+            <div class="flex candidateList">
+                <div class="text2">
+                    Result :
+                </div>
+                <ul id="result" class="text2">
+
+                </ul>
+            </div>
+
+            <div class="rankedList flex">
+                <div class="text2">
+                    Ranked List :
+                </div>
+                <ul id="rank" class="text2">
+
+                </ul>
+            </div>
+
+            <script src="./script.js"></script>
+
+        </div>
+    </section>
+</body>
+
+</html>
