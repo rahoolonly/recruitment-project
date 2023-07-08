@@ -387,8 +387,19 @@ input {
     }
 
     /* feature section */
+   
+    .features{
+        gap: 6rem;
+    }
+    
     .feature>img {
         width: 50rem;
+    }
+
+
+     /* sign In section */
+     .sign-in {
+        height: 93vh;
     }
 
 
